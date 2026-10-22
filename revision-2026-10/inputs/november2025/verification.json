@@ -1,0 +1,243 @@
+{
+  "original_archive_sha256": "13ed879b0a5d74f315fb84c208fec6238a977cdeed8b8bcc21a518f8198ee61e",
+  "expected_files": 2438,
+  "verified_files": 2438,
+  "all_file_hashes_match": true,
+  "packaging": "Independent ZIP parts, each containing complete original Parquet files; extract all into one directory.",
+  "parts": [
+    {
+      "file": "november2025-part-001.zip",
+      "files": 64,
+      "bytes": 4114166,
+      "sha256": "5f10357f3f5de55e0c0b031537147fc678e6cbbf119b7edea38e665960cdbb00"
+    },
+    {
+      "file": "november2025-part-002.zip",
+      "files": 64,
+      "bytes": 4099239,
+      "sha256": "4f757778200185f4773ef6f2cfff475fb6f1d6b6eddba2837e5b1c2c431b18e9"
+    },
+    {
+      "file": "november2025-part-003.zip",
+      "files": 64,
+      "bytes": 4276181,
+      "sha256": "8b9df452f536de07d482cb9862cc1e735b8d8d2fede2ccbd3c6573eeb25f9f4e"
+    },
+    {
+      "file": "november2025-part-004.zip",
+      "files": 64,
+      "bytes": 4556764,
+      "sha256": "cec76814c157b7818c1587f4045ff1e425cd9578e67923572cc784ef5c3d8842"
+    },
+    {
+      "file": "november2025-part-005.zip",
+      "files": 64,
+      "bytes": 4678364,
+      "sha256": "37c17e14a92e401d7aae1d10c7f20a534c55de0d98eb33369ea29b614154b601"
+    },
+    {
+      "file": "november2025-part-006.zip",
+      "files": 64,
+      "bytes": 4606894,
+      "sha256": "9679dd545ad34c1e363d4ea1edfade26843f23d12c00c8b47195211db4823823"
+    },
+    {
+      "file": "november2025-part-007.zip",
+      "files": 64,
+      "bytes": 4421686,
+      "sha256": "c66c81a2f08549d04429848b95387645f11ca4cf7bd6edbef4dedea6295cf733"
+    },
+    {
+      "file": "november2025-part-008.zip",
+      "files": 64,
+      "bytes": 4491457,
+      "sha256": "cb005d32b6260d9b1ef06bc5928012c9573de2a589f95b2dd7bbd0cb0d4ae6ee"
+    },
+    {
+      "file": "november2025-part-009.zip",
+      "files": 64,
+      "bytes": 4558712,
+      "sha256": "bab814d9680d9db6198c1a3cc57c6a46df949b3007b612b6e97fa3418c6a29d3"
+    },
+    {
+      "file": "november2025-part-010.zip",
+      "files": 64,
+      "bytes": 4306415,
+      "sha256": "2fd4d6e11054fe60b47ea966af924a8f9bf1323b05277baa86e648366cdd6022"
+    },
+    {
+      "file": "november2025-part-011.zip",
+      "files": 64,
+      "bytes": 4140655,
+      "sha256": "4b50647923d26aebb412d865ccde9c306d57ced920f5b3fafeeaffad4f4a0e72"
+    },
+    {
+      "file": "november2025-part-012.zip",
+      "files": 64,
+      "bytes": 4381298,
+      "sha256": "9f283251f61edb18a4dc8f0344ce80ae1ceca0b9a9d13c53d8e6240dd4dc922f"
+    },
+    {
+      "file": "november2025-part-013.zip",
+      "files": 64,
+      "bytes": 4431229,
+      "sha256": "805cc208e60ccbf0ae3da2409c860d6fb17ef24d041f6218c0336661946df541"
+    },
+    {
+      "file": "november2025-part-014.zip",
+      "files": 64,
+      "bytes": 4385985,
+      "sha256": "10f2ded40a314137ed108c46e990ef54531ca32dbeae718f8736c9ab0a911749"
+    },
+    {
+      "file": "november2025-part-015.zip",
+      "files": 64,
+      "bytes": 4387581,
+      "sha256": "e385d43d2c20efcb3b0fa2787bb31fcb1aa349ce73d1e0963d37d8cece9d1cb9"
+    },
+    {
+      "file": "november2025-part-016.zip",
+      "files": 64,
+      "bytes": 4340284,
+      "sha256": "2da3ad616f1815e2d67e0354f12a8bc787f568bf0c3143c57c762391c5286d0f"
+    },
+    {
+      "file": "november2025-part-017.zip",
+      "files": 64,
+      "bytes": 4645791,
+      "sha256": "4fbcc8e65579ac4636871db7c1f7f765043902f2ab1756034086cbcf777674b0"
+    },
+    {
+      "file": "november2025-part-018.zip",
+      "files": 64,
+      "bytes": 4598384,
+      "sha256": "3401f17ce9b53bf3171f6a30f5a7eaef669e5b805554d61de9846b16c0049f1c"
+    },
+    {
+      "file": "november2025-part-019.zip",
+      "files": 64,
+      "bytes": 4299559,
+      "sha256": "4f4c8e6c218c77b3dbd67b59e4192738e67072a9aa94174a342f786f05f1d04b"
+    },
+    {
+      "file": "november2025-part-020.zip",
+      "files": 64,
+      "bytes": 4280552,
+      "sha256": "4bc8e4a87f2101422191620ed22a7cf31c4725f4529b371f9a3b51216d337e6f"
+    },
+    {
+      "file": "november2025-part-021.zip",
+      "files": 64,
+      "bytes": 4456073,
+      "sha256": "678d3f4a8f9466c4286244e39834a8733a7120a6597d21b4ed618388eb6ed1e8"
+    },
+    {
+      "file": "november2025-part-022.zip",
+      "files": 64,
+      "bytes": 4665458,
+      "sha256": "9dd6e930b27b455b53b85626a3af70dd27e59b1a82a34454551ec70e87f1aec4"
+    },
+    {
+      "file": "november2025-part-023.zip",
+      "files": 64,
+      "bytes": 4529274,
+      "sha256": "1d43d52e82452607b30fbdd548cfd461fb5583946319772ab61c92f579d8b96a"
+    },
+    {
+      "file": "november2025-part-024.zip",
+      "files": 64,
+      "bytes": 4505523,
+      "sha256": "0f89efd7a821d8d9ea284ca0207157231cf6a4b2a7f68bf3cbd4fb0312e13a03"
+    },
+    {
+      "file": "november2025-part-025.zip",
+      "files": 64,
+      "bytes": 4475079,
+      "sha256": "042649e677aabdda04ef5f58dd7621e5dabbc7ec062e40696c11fcf55e6fa910"
+    },
+    {
+      "file": "november2025-part-026.zip",
+      "files": 64,
+      "bytes": 4652748,
+      "sha256": "f2c35b4dde68a4ff6ad457786d949e5a4148ff8e2c7647f3e1b69fa3e3bc7ad3"
+    },
+    {
+      "file": "november2025-part-027.zip",
+      "files": 64,
+      "bytes": 4662400,
+      "sha256": "e7078263e2ea9feeb01b1f5ee307ff8a7378cba6eabb2ca371405473006c2910"
+    },
+    {
+      "file": "november2025-part-028.zip",
+      "files": 64,
+      "bytes": 4374428,
+      "sha256": "cbf18947b17d9d8eb17de8536104e64598075d7e38853a1158c6c2f78ac3f690"
+    },
+    {
+      "file": "november2025-part-029.zip",
+      "files": 64,
+      "bytes": 4396526,
+      "sha256": "0be4c244a0ddbfd40c1bbd5ec544c75fb1f815a9518d22adf190d49c44fe3971"
+    },
+    {
+      "file": "november2025-part-030.zip",
+      "files": 64,
+      "bytes": 4455257,
+      "sha256": "fe43c9a92833f5d6c20be2ea1e6a23fca63d42edece9772ba77afd78f5996176"
+    },
+    {
+      "file": "november2025-part-031.zip",
+      "files": 64,
+      "bytes": 4443969,
+      "sha256": "a461c3b4fa18d5760bf1a52f910dbe8b56d2dcb9c8dbe14ee7af2edaf7ea46f2"
+    },
+    {
+      "file": "november2025-part-032.zip",
+      "files": 64,
+      "bytes": 4401821,
+      "sha256": "58bd8638a500401784d2a291d974159f348de5358f2856aab99acba2e53d61eb"
+    },
+    {
+      "file": "november2025-part-033.zip",
+      "files": 64,
+      "bytes": 4382684,
+      "sha256": "3d525619b8cec642818ff5ed4636505b7ab1562021fe45929e2f8475fcef3fae"
+    },
+    {
+      "file": "november2025-part-034.zip",
+      "files": 64,
+      "bytes": 4446217,
+      "sha256": "7625dde346541b7be71ed309badbebc2360c6b72ba4e0c1d7e1704bbfb2288d2"
+    },
+    {
+      "file": "november2025-part-035.zip",
+      "files": 64,
+      "bytes": 4239921,
+      "sha256": "aaa4f27bd434df581d05f3f12556db1bf068cf7281d2ee20a08307cdeacb5f21"
+    },
+    {
+      "file": "november2025-part-036.zip",
+      "files": 64,
+      "bytes": 4269811,
+      "sha256": "4eb6561d96f822b106865e6586c56426ae9566af53d30af52647a74eca1f7927"
+    },
+    {
+      "file": "november2025-part-037.zip",
+      "files": 64,
+      "bytes": 4090257,
+      "sha256": "18f8a23e41dfece4eb90e809518ae6e0fab963e87384ff3e7ab2a7fb075613c6"
+    },
+    {
+      "file": "november2025-part-038.zip",
+      "files": 64,
+      "bytes": 4069112,
+      "sha256": "6adebbd80e197fc2c78b2939770c9878fd9bf5d501c9b5fc03564ef060490741"
+    },
+    {
+      "file": "november2025-part-039.zip",
+      "files": 6,
+      "bytes": 393191,
+      "sha256": "c6c057648377b9ab2694235790cc77222a939b03e08dbcb06dffa72dd7aec7c1"
+    }
+  ]
+}
