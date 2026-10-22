@@ -1,0 +1,2 @@
+    redis 7.0.15 /home/claude/cloudrun/redis-server
+redis_mode=native

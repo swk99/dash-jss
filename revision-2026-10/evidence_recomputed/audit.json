@@ -1,0 +1,327 @@
+{
+  "commit": "53353760db37921a8da5e231169d9dcec3027cff",
+  "audit_type": "independent reanalysis of existing records; no new latency measurements",
+  "replication_rows": 300000,
+  "failures": 0,
+  "replication_summary": [
+    {
+      "env": "cloud",
+      "K": 1,
+      "median_ratio": 1.2801828987157966,
+      "above_one": 5,
+      "B2_cv": 0.01416374819839576,
+      "ratios": [
+        1.5641608242754586,
+        1.233446944229635,
+        1.497220710092058,
+        1.2801828987157966,
+        1.1939750839969543
+      ]
+    },
+    {
+      "env": "cloud",
+      "K": 100,
+      "median_ratio": 1.1684862053921907,
+      "above_one": 4,
+      "B2_cv": 0.07203680701777704,
+      "ratios": [
+        1.240652039376161,
+        1.1684862053921907,
+        1.250724826848749,
+        1.1462926875672261,
+        0.9501951941209654
+      ]
+    },
+    {
+      "env": "laptop",
+      "K": 1,
+      "median_ratio": 0.8882350438119113,
+      "above_one": 2,
+      "B2_cv": 0.08736636917482528,
+      "ratios": [
+        0.7270041281283547,
+        2.7625222301789947,
+        0.8882350438119113,
+        0.7445883899249361,
+        1.264171792680977
+      ]
+    },
+    {
+      "env": "laptop",
+      "K": 100,
+      "median_ratio": 1.434661518245968,
+      "above_one": 4,
+      "B2_cv": 0.23420541536374753,
+      "ratios": [
+        1.434661518245968,
+        2.305874677085095,
+        0.9128883367562385,
+        1.3399391396753757,
+        1.9609236052951373
+      ]
+    }
+  ],
+  "equivalence_rows": 18000,
+  "equivalence_mismatches": 0,
+  "window_rows": 300000,
+  "update_rows": 30000,
+  "memory_rows": 100,
+  "hash_all_match": true,
+  "legacy": [
+    {
+      "file": "results/latency_k_Logistic.csv",
+      "rows": 30000,
+      "thresholds": [
+        0.6731
+      ],
+      "trial_unique": 2000,
+      "columns": [
+        "engine",
+        "yhat",
+        "A_ms",
+        "B1_ms",
+        "B2_ms",
+        "total_ms",
+        "model",
+        "run_id",
+        "tag",
+        "alpha",
+        "lookback_w",
+        "tau",
+        "horizon_h",
+        "lambda",
+        "k",
+        "trial",
+        "idx"
+      ]
+    },
+    {
+      "file": "results/latency_k_Logistic_2025_11.csv",
+      "rows": 30000,
+      "thresholds": [
+        0.6731
+      ],
+      "trial_unique": 2000,
+      "columns": [
+        "engine",
+        "yhat",
+        "A_ms",
+        "B1_ms",
+        "B2_ms",
+        "total_ms",
+        "model",
+        "run_id",
+        "tag",
+        "alpha",
+        "lookback_w",
+        "tau",
+        "horizon_h",
+        "lambda",
+        "k",
+        "trial",
+        "idx"
+      ]
+    },
+    {
+      "file": "results/latency_k_RandomForest.csv",
+      "rows": 30000,
+      "thresholds": [
+        0.6731
+      ],
+      "trial_unique": 2000,
+      "columns": [
+        "engine",
+        "yhat",
+        "A_ms",
+        "B1_ms",
+        "B2_ms",
+        "total_ms",
+        "model",
+        "run_id",
+        "tag",
+        "alpha",
+        "lookback_w",
+        "tau",
+        "horizon_h",
+        "lambda",
+        "k",
+        "trial",
+        "idx"
+      ]
+    },
+    {
+      "file": "results/latency_k_RandomForest_2025_11.csv",
+      "rows": 30000,
+      "thresholds": [
+        0.6731
+      ],
+      "trial_unique": 2000,
+      "columns": [
+        "engine",
+        "yhat",
+        "A_ms",
+        "B1_ms",
+        "B2_ms",
+        "total_ms",
+        "model",
+        "run_id",
+        "tag",
+        "alpha",
+        "lookback_w",
+        "tau",
+        "horizon_h",
+        "lambda",
+        "k",
+        "trial",
+        "idx"
+      ]
+    },
+    {
+      "file": "results/latency_k_XGBoost.csv",
+      "rows": 30000,
+      "thresholds": [
+        0.6731
+      ],
+      "trial_unique": 2000,
+      "columns": [
+        "engine",
+        "yhat",
+        "A_ms",
+        "B1_ms",
+        "B2_ms",
+        "total_ms",
+        "model",
+        "run_id",
+        "tag",
+        "alpha",
+        "lookback_w",
+        "tau",
+        "horizon_h",
+        "lambda",
+        "k",
+        "trial",
+        "idx"
+      ]
+    },
+    {
+      "file": "results/latency_k_XGBoost_2025_11.csv",
+      "rows": 30000,
+      "thresholds": [
+        0.6731
+      ],
+      "trial_unique": 2000,
+      "columns": [
+        "engine",
+        "yhat",
+        "A_ms",
+        "B1_ms",
+        "B2_ms",
+        "total_ms",
+        "model",
+        "run_id",
+        "tag",
+        "alpha",
+        "lookback_w",
+        "tau",
+        "horizon_h",
+        "lambda",
+        "k",
+        "trial",
+        "idx"
+      ]
+    },
+    {
+      "file": "results/latency_k_sweep_FULL.csv",
+      "rows": 90000,
+      "thresholds": [
+        0.6731
+      ],
+      "trial_unique": 2000,
+      "columns": [
+        "engine",
+        "yhat",
+        "A_ms",
+        "B1_ms",
+        "B2_ms",
+        "total_ms",
+        "model",
+        "run_id",
+        "tag",
+        "alpha",
+        "lookback_w",
+        "tau",
+        "horizon_h",
+        "lambda",
+        "k",
+        "trial",
+        "idx"
+      ]
+    },
+    {
+      "file": "results/latency_multisymbol_mixed.csv",
+      "rows": 24000,
+      "thresholds": [
+        0.6731
+      ],
+      "trial_unique": 2000,
+      "columns": [
+        "engine",
+        "yhat",
+        "A_ms",
+        "B1_ms",
+        "B2_ms",
+        "total_ms",
+        "model",
+        "run_id",
+        "k",
+        "logical_symbol",
+        "base_symbol",
+        "trial",
+        "idx",
+        "alpha",
+        "tau",
+        "lookback_w",
+        "horizon_h"
+      ]
+    }
+  ],
+  "threshold_diagnostic": {
+    "test_kind": "synthetic unit diagnostic, NOT empirical model recalibration",
+    "y": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "probabilities": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6
+    ],
+    "legacy_return": {
+      "thr": 0.1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1": 0.7499999999995312,
+      "fbeta": 0.7499999999995312,
+      "ap": 0.7555555555555555,
+      "policy": "f1",
+      "beta": 1.0,
+      "min_precision": null,
+      "min_recall": null
+    },
+    "actual_at_returned_threshold": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    "correct_f1_max_threshold": 0.2,
+    "correct_f1_max": 0.7499999999995312
+  },
+  "missing_input_files": 75
+}

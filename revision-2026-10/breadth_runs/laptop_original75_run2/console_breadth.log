@@ -1,0 +1,52 @@
+=== DASH breadth re-run 2026-10-12T19:04:42Z host=seonwoo kernel=6.18.35.2-microsoft-standard-WSL2 ===
+root=/mnt/c/Users/sogon/OneDrive - Goldsmiths College/research_1_DASH
+out=/mnt/c/Users/sogon/DASH_breadth_20261012_200428
+datasets=original75
+[*] python: /home/seonwoo/venv/bin/python (Python 3.13.16)
+    sklearn 1.6.1 xgboost 3.4.1 numpy 2.5.3 torch 2.14.1+cpu
+[*] pinned HEAD 53353760db37921a8da5e231169d9dcec3027cff
+[*] started native WSL redis-server on 6390 (persistence off)
+    redis 8.0.5 /mnt/c/Users/sogon/Downloads/DASH_breadth_package/redis-server
+[collect] dataset-info original75: done
+=== latency: original75  start 2026-10-12T19:05:56Z ===
+{
+  "status": "PREFLIGHT_PASSED",
+  "issues": [],
+  "input_count": 75,
+  "new_latency_measurements": false,
+  "time_utc": "2026-10-12T19:05:58.896387+00:00"
+}
+SHA256 check: all_match
+RandomForest 1 0 complete
+Logistic 1 0 complete
+XGBoost 1 0 complete
+XGBoost 1 1 complete
+RandomForest 1 1 complete
+Logistic 1 1 complete
+XGBoost 1 2 complete
+RandomForest 1 2 complete
+Logistic 1 2 complete
+RandomForest 1 3 complete
+XGBoost 1 3 complete
+Logistic 1 3 complete
+RandomForest 1 4 complete
+XGBoost 1 4 complete
+Logistic 1 4 complete
+Logistic 100 0 complete
+XGBoost 100 0 complete
+RandomForest 100 0 complete
+Logistic 100 1 complete
+RandomForest 100 1 complete
+XGBoost 100 1 complete
+XGBoost 100 2 complete
+RandomForest 100 2 complete
+Logistic 100 2 complete
+Logistic 100 3 complete
+RandomForest 100 3 complete
+XGBoost 100 3 complete
+Logistic 100 4 complete
+RandomForest 100 4 complete
+XGBoost 100 4 complete
+=== latency: original75  end 2026-10-12T19:19:47Z ===
+[collect] final CSV: /mnt/c/Users/sogon/DASH_breadth_20261012_200428/DASH_rerun_results.csv  rows=161  errors=1
+=== done 2026-10-12T19:19:49Z ===

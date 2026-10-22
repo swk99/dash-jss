@@ -1,0 +1,18 @@
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l l r r r l@{}}
+\toprule
+Model & Regime & Stage-2 (\%) & Mean red. & P99 red. & $>$10\,ms A/B1 \\
+\midrule
+Logistic & Low & 99.1 & 45.8\% & 51.6\% & 0.011\%/0.167\% \\
+Logistic & Mid & 99.8 & 41.9\% & 40.1\% & 0.012\%/0.083\% \\
+Logistic & High & 81.7 & 41.0\% & 36.2\% & 0.026\%/0.053\% \\
+Logistic & Extreme q95 & 17.3 & 43.6\% & 36.4\% & 0.000\%/0.000\% \\
+XGBoost & Low & 15.1 & 38.3\% & 40.0\% & 0.056\%/0.156\% \\
+XGBoost & Mid & 68.4 & 35.4\% & 35.2\% & 0.130\%/0.261\% \\
+XGBoost & High & 75.1 & 34.5\% & 31.6\% & 0.132\%/0.264\% \\
+XGBoost & Extreme q95 & 46.7 & 37.3\% & 36.3\% & 0.078\%/0.078\% \\
+Random Forest & Low & 22.6 & 14.3\% & 0.1\% & 0.089\%/0.067\% \\
+Random Forest & Mid & 98.2 & 9.6\% & 13.4\% & 0.237\%/0.497\% \\
+Random Forest & High & 93.9 & 8.2\% & 7.0\% & 0.172\%/0.212\% \\
+Random Forest & Extreme q95 & 74.9 & 10.5\% & 9.4\% & 0.000\%/0.000\% \\
+\bottomrule
+\end{tabular*}

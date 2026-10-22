@@ -1,0 +1,118 @@
+{
+  "env_label": "audit_linux_20261011",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "cpu_count": 9,
+  "redis_server": {
+    "redis_version": "6.2.14",
+    "redis_git_sha1": 40305114,
+    "redis_git_dirty": 0,
+    "redis_build_id": "dff95a8e7a99d269",
+    "redis_mode": "standalone",
+    "os": "Linux 6.18.44 x86_64",
+    "arch_bits": 64,
+    "monotonic_clock": "POSIX clock_gettime",
+    "multiplexing_api": "epoll",
+    "atomicvar_api": "c11-builtin",
+    "gcc_version": "10.2.1",
+    "process_id": 8,
+    "process_supervised": "no",
+    "run_id": "ea855c7534b219f563d60d5d49f6a64c7aac8a25",
+    "tcp_port": 6389,
+    "server_time_usec": 1791719544263701,
+    "uptime_in_seconds": 11,
+    "uptime_in_days": 0,
+    "hz": 10,
+    "configured_hz": 10,
+    "lru_clock": 13334648,
+    "executable": "/root/.local/lib/python3.12/site-packages/redislite/bin/redis-server",
+    "config_file": "",
+    "io_threads_active": 0
+  },
+  "redis_persistence": {
+    "loading": 0,
+    "current_cow_size": 0,
+    "current_cow_size_age": 0,
+    "current_fork_perc": 0.0,
+    "current_save_keys_processed": 0,
+    "current_save_keys_total": 0,
+    "rdb_changes_since_last_save": 0,
+    "rdb_bgsave_in_progress": 0,
+    "rdb_last_save_time": 1791719533,
+    "rdb_last_bgsave_status": "ok",
+    "rdb_last_bgsave_time_sec": -1,
+    "rdb_current_bgsave_time_sec": -1,
+    "rdb_last_cow_size": 0,
+    "aof_enabled": 0,
+    "aof_rewrite_in_progress": 0,
+    "aof_rewrite_scheduled": 0,
+    "aof_last_rewrite_time_sec": -1,
+    "aof_current_rewrite_time_sec": -1,
+    "aof_last_bgrewrite_status": "ok",
+    "aof_last_write_status": "ok",
+    "aof_last_cow_size": 0,
+    "module_fork_in_progress": 0,
+    "module_fork_last_cow_size": 0
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.6.1",
+    "xgboost": "3.4.1",
+    "redis": "8.1.0",
+    "torch": "2.14.1+cpu",
+    "pyarrow": "26.0.0"
+  },
+  "extension_script_sha256": "60b3f3e68f869600504543d60d51ebe97ca55ad509a5385f80d3afce92eeb4eb",
+  "original_script_sha256": "f39f9fb86ffe4d8f80ebc9fd513d16e992e581a58abcec11dc615a21f80c02b3",
+  "input_sha256": "e1cd7d2a19eacd3b09bde76b8fc1b571ce40d88f0ac7627fa20a75d492a29d87",
+  "manifest_sha256": "202f9ad9f7af9705b2339bb37705e4c4e016dcb1509c5a9c54f701b38d41d0fb",
+  "artifacts": {
+    "s1_xgb_H30_a2_L94.json": "1404dd6d6c7a1eb38f98e8d82dfc071b4db81d3853c84b7fa31b3ab9e5f9977a",
+    "s2_xgb_H30_a2_L94.json": "987e58456f730c44bf48d669680405dcb79d291338ece805642ece8576a0ee9f",
+    "s1_rf_H30_a2_L94.pkl": "5051a3329ec9b4ad0facd44201f63c7db4353a0edb31dc248af91b0108f70914",
+    "s2_rf_H30_a2_L94.pkl": "863a778357023a267ed00f737577e3756efd2d857c08dfa9985a263b0f755aaf",
+    "artifacts/s1_lr_H30_a2_L94.pkl": "925de0eb9d460e401bd70d0bfcf615bfc35ba9714af666ab0cbe6694998c7bc7",
+    "s2_lr_H30_a2_L94.pkl": "afcc15fb8e0d6965e8fbd302b12ab3d111b333d45b6d3618a829a528faad09f9",
+    "scaler_H30_a2_L94.pkl": "bb747f7456f13f17f21334e19c33849b1725604f5b06a75b4a7a3b28340e37ff",
+    "thresholds_H30_a2_L94.json": "9c567b7d82502b18a9ea9ed1599c7683c1f9d2a6005dbb5eef81d045dddfdd4f"
+  },
+  "dataset_status": "new dataset extension",
+  "sha_check": "MISMATCH:input_array_sha256,data_file_manifest_sha256",
+  "repo_commit": "53353760db37921a8da5e231169d9dcec3027cff",
+  "models": [
+    "Logistic",
+    "RandomForest",
+    "XGBoost"
+  ],
+  "run_status": "complete",
+  "measured_cells": 30,
+  "model_load": {
+    "RandomForest": {
+      "threads": {
+        "s1": 1,
+        "s2": 1
+      },
+      "stdout": "[*] Loading DASH Harness: RandomForest (Tag: H30_a2_L94) / [*] Loaded tuned thresholds: tau_conf=0.503215, tau_s2=0.445603",
+      "warnings": []
+    },
+    "Logistic": {
+      "threads": {
+        "s1": 1,
+        "s2": 1
+      },
+      "stdout": "[*] Loading DASH Harness: Logistic (Tag: H30_a2_L94) / [*] Loaded tuned thresholds: tau_conf=0.513659, tau_s2=0.430508",
+      "warnings": []
+    },
+    "XGBoost": {
+      "threads": {
+        "s1": "1",
+        "s2": "1"
+      },
+      "stdout": "[*] Loading DASH Harness: XGBoost (Tag: H30_a2_L94) / [*] Loaded tuned thresholds: tau_conf=0.500254, tau_s2=0.386002",
+      "warnings": []
+    }
+  },
+  "end_utc": "2026-10-11T11:59:41.379669+00:00"
+}

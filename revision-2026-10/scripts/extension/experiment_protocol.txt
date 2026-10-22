@@ -1,0 +1,77 @@
+DASH revision reproducibility workflow
+
+Canonical ML implementation: https://github.com/swk99/dash-bound-state at
+53353760db37921a8da5e231169d9dcec3027cff.
+Keep this revision folder outside that checkout. Do not apply training changes
+before reproducing frozen evidence: the original driver hashes root *.py.
+
+Commands (replace paths; use a dedicated local Redis, no production service):
+ git clone https://github.com/swk99/dash-bound-state.git dash-bound-state
+ git -C dash-bound-state checkout 53353760db37921a8da5e231169d9dcec3027cff
+ python dash_revision.py audit /path/to/dash-bound-state /path/to/audit_output
+ python dash_revision.py figures /path/to/audit_output /path/to/figures
+
+The audit reads original checkpoint records without importing experiment drivers
+or requiring original input parquet, Redis, Torch or model execution.
+Dependencies: numpy,pandas,pyarrow,scipy,scikit-learn; figures also matplotlib.
+The training helper diagnostic executes only extracted pure AST functions, not
+train_2.main or service code. It does not alter artefacts.
+
+Model extension, November archive (new data, NOT original input replication):
+ export REDIS_HOST=127.0.0.1
+ export REDIS_PORT=6389
+ python dash_revision.py models --repo /path/to/dash-bound-state --data-glob '/path/to/btcusdt_2/flush_*.parquet' --env-label actual_host_name --out /path/to/new_output --new-data
+The command above only preflights. Add --run for real measurement.
+ python dash_revision.py models --repo /path/to/dash-bound-state --data-glob '/path/to/btcusdt_2/flush_*.parquet' --env-label actual_host_name --out /path/to/new_output --new-data --run
+ python dash_revision.py summarize /path/to/new_output/extension_<actual_run>
+Do not use shell glob expansion if more than one extension directory exists;
+select the exact completed run path.
+
+The --new-data switch explicitly permits only input-array and data-file-manifest
+hash differences from the original Study II manifest. Source, script and all
+artefact hashes must still match. Output metadata records the input mismatch;
+it is not an all_match historical replication. No silent mismatch suppression.
+The original-input mode omits --new-data and requires original 75 input files.
+
+The runner imports the original driver, reuses its schedule, loader, thread
+pinning, A/B1/B2 implementation, CPU monitor and timing fields. It never calls
+the original driver's main(). Engine order uses its original seed rule; model
+order is permuted before measurement per K/repeat. New run directories are
+unique; historical files are never resumed or overwritten. Own keys only are
+removed; FLUSHDB/FLUSHALL are not used.
+
+Protocol frozen before this run: 3 models (Logistic, RandomForest, XGBoost),
+W=30,d=6,float32,K=1/100,5 repeats,3 engines,200 global warmup,5000 measured
+requests per engine/cell, W fill per logical stream, one closed-loop client,
+fixed stored thresholds and model weights, one inference thread. All measured
+predictions and gate events must agree across paths. Failed requests are saved
+and terminate the run. Tables use HF7 quantiles, mean per-repeat quantiles,
+median paired P99(B1)/P99(A), and sample SD (ddof=1). B2 CV>0.25 flags noise.
+No confidence intervals or p-values are inferred from 5000 dependent ticks.
+
+For a second environment, copy the same revision scripts and frozen repo,
+provide the same November input files, use a truthful distinct host label,
+record CPU/OS/Redis/runtime configuration, run without simultaneous analyses,
+and return the whole new run directory. Do not pool environments or relabel
+this audit host as the original cloud/laptop. Do not retune thresholds.
+
+This audit's extension ran on one shared Linux host (AMD EPYC, cgroup quota
+8 CPUs, 8 GiB limit; see audit_host.json), Python3.12.14, Redis server6.2.14
+from the redislite-distributed real redis-server executable, direct loopback
+TCP on port6389, RDB/AOF disabled, actual Lua execution (not fakeredis).
+Environment versions are in the run metadata and requirements-observed.txt.
+Document preparation continued during measurement and a short plotting/host
+inspection command overlapped late cells. All observations were retained;
+this is exploratory additional evidence, not isolated-host confirmation.
+RF K1 fails the noise gate. Preserve that result; do not rerun selectively to
+obtain a favourable ratio. Any repeat study must be a separately declared run.
+
+Training correction: calibration_indexing_fix.patch fixes PR-curve indexing
+only. It is supplied but not applied to the frozen repository. Original
+training/validation data are still needed to recalibrate. Do not overwrite
+stored thresholds or claim historical predictive metrics are now corrected.
+
+Java: archived_harness_v3 is the canonical supplied Java/DuckDB rule harness.
+No Java experiment was executed here; no result files were in those archives.
+Its rho/knee/open-loop semantics are not the Python Redis ML paper's measured
+semantics. Keep it outside the primary paper's executable path.

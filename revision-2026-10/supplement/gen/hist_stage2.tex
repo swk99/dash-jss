@@ -1,0 +1,15 @@
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r r r r r r r@{}}
+\toprule
+Model & $K$ & Cal. inv. (\%) & Fixed inv. (\%) & Cal. P99 (ms) & Always P99 (ms) & P99 reduction & TPS gain \\
+\midrule
+Logistic & 1 & 63.3 & 0.02 & 1.581 & 1.817 & 13.0\% & 1.06$\times$ \\
+Logistic & 10 & 90.9 & 0.00 & 1.599 & 2.200 & 27.3\% & 1.08$\times$ \\
+Logistic & 50 & 90.2 & 0.04 & 1.729 & 1.868 & 7.4\% & 1.03$\times$ \\
+XGBoost & 1 & 57.4 & 0.76 & 2.765 & 3.039 & 9.0\% & 1.13$\times$ \\
+XGBoost & 10 & 59.4 & 0.64 & 2.384 & 2.817 & 15.4\% & 1.10$\times$ \\
+XGBoost & 50 & 59.8 & 0.66 & 2.560 & 2.797 & 8.5\% & 1.09$\times$ \\
+Random Forest & 1 & 73.5 & 0.00 & 3.574 & 4.097 & 12.8\% & 1.12$\times$ \\
+Random Forest & 10 & 82.2 & 0.00 & 4.107 & 4.150 & 1.0\% & 1.08$\times$ \\
+Random Forest & 50 & 80.3 & 0.00 & 4.021 & 5.377 & 25.2\% & 1.16$\times$ \\
+\bottomrule
+\end{tabular*}

@@ -1,0 +1,15 @@
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r r r r@{}}
+\toprule
+Model & $N$ & Redis bytes & List len. & Median RSS $\Delta$ (MB) \\
+\midrule
+Logistic & 1,000 & 976 & 30 & 0.06 \\
+Logistic & 10,000 & 976 & 30 & 0.05 \\
+Logistic & 100,000 & 976 & 30 & 0.05 \\
+XGBoost & 1,000 & 976 & 30 & 0.59 \\
+XGBoost & 10,000 & 976 & 30 & 0.58 \\
+XGBoost & 100,000 & 976 & 30 & 0.65 \\
+Random Forest & 1,000 & 976 & 30 & 0.48 \\
+Random Forest & 10,000 & 976 & 30 & 0.82 \\
+Random Forest & 100,000 & 976 & 30 & 3.90 \\
+\bottomrule
+\end{tabular*}

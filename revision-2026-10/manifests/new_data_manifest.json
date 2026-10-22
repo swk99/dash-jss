@@ -1,0 +1,21 @@
+{
+  "files": 2438,
+  "rows": 2437999,
+  "start": "2025-11-01 00:00:00+00:00",
+  "end": "2025-11-30 23:59:59+00:00",
+  "monotonic": true,
+  "duplicate_timestamps": 168,
+  "nan": 0,
+  "inf": 0,
+  "input_array_sha256": "e1cd7d2a19eacd3b09bde76b8fc1b571ce40d88f0ac7627fa20a75d492a29d87",
+  "data_file_manifest_sha256": "202f9ad9f7af9705b2339bb37705e4c4e016dcb1509c5a9c54f701b38d41d0fb",
+  "feature_order": [
+    "r_t",
+    "sigma_hat",
+    "OFI_t",
+    "Imbalance_t",
+    "VolSpike_t",
+    "msg_count"
+  ],
+  "relation": "new dataset; 0 file hashes match original Study II input manifest"
+}

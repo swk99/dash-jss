@@ -1,0 +1,308 @@
+\begin{thebibliography}{28}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Akidau et~al.(2015)Akidau, Bradshaw, Chambers, Chernyak,
+  Fern{\'a}ndez-Moctezuma, Lax, McVeety, Mills, Perry, Schmidt and
+  Whittle}]{akidau2015dataflow}
+\bibinfo{author}{Akidau, T.}, \bibinfo{author}{Bradshaw, R.},
+  \bibinfo{author}{Chambers, C.}, \bibinfo{author}{Chernyak, S.},
+  \bibinfo{author}{Fern{\'a}ndez-Moctezuma, R.J.}, \bibinfo{author}{Lax, R.},
+  \bibinfo{author}{McVeety, S.}, \bibinfo{author}{Mills, D.},
+  \bibinfo{author}{Perry, F.}, \bibinfo{author}{Schmidt, E.},
+  \bibinfo{author}{Whittle, S.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The dataflow model: A practical approach to balancing
+  correctness, latency, and cost in massive-scale, unbounded, out-of-order data
+  processing}.
+\newblock \bibinfo{journal}{Proceedings of the VLDB Endowment}
+  \bibinfo{volume}{8}, \bibinfo{pages}{1792--1803}.
+\newblock \DOIprefix\doi{10.14778/2824032.2824076}.
+%Type = Inproceedings
+\bibitem[{Arasu et~al.(2004)Arasu, Cherniack, Galvez, Maier, Maskey, Ryvkina,
+  Stonebraker and Tibbetts}]{arasu2004linearroad}
+\bibinfo{author}{Arasu, A.}, \bibinfo{author}{Cherniack, M.},
+  \bibinfo{author}{Galvez, E.}, \bibinfo{author}{Maier, D.},
+  \bibinfo{author}{Maskey, A.S.}, \bibinfo{author}{Ryvkina, E.},
+  \bibinfo{author}{Stonebraker, M.}, \bibinfo{author}{Tibbetts, R.},
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Linear road: A stream data management benchmark}, in:
+  \bibinfo{booktitle}{Proceedings of the 30th International Conference on Very
+  Large Data Bases (VLDB)}, pp. \bibinfo{pages}{480--491}.
+%Type = Article
+\bibitem[{Armbrust et~al.(2020)Armbrust, Das, Sun, Yavuz, Zhu, Murthy, Torres,
+  van Hovell, Ionescu, {\L}uszczak, {\'{S}}witakowski, Szafra{\'{n}}ski, Li,
+  Ueshin, Mokhtar, Boncz, Ghodsi, Paranjpye, Senster, Xin and
+  Zaharia}]{armbrust2020delta}
+\bibinfo{author}{Armbrust, M.}, \bibinfo{author}{Das, T.},
+  \bibinfo{author}{Sun, L.}, \bibinfo{author}{Yavuz, B.}, \bibinfo{author}{Zhu,
+  S.}, \bibinfo{author}{Murthy, M.}, \bibinfo{author}{Torres, J.},
+  \bibinfo{author}{van Hovell, H.}, \bibinfo{author}{Ionescu, A.},
+  \bibinfo{author}{{\L}uszczak, A.}, \bibinfo{author}{{\'{S}}witakowski, M.},
+  \bibinfo{author}{Szafra{\'{n}}ski, M.}, \bibinfo{author}{Li, X.},
+  \bibinfo{author}{Ueshin, T.}, \bibinfo{author}{Mokhtar, M.},
+  \bibinfo{author}{Boncz, P.}, \bibinfo{author}{Ghodsi, A.},
+  \bibinfo{author}{Paranjpye, S.}, \bibinfo{author}{Senster, P.},
+  \bibinfo{author}{Xin, R.}, \bibinfo{author}{Zaharia, M.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{{Delta Lake}: High-performance {ACID} table storage
+  over cloud object stores}.
+\newblock \bibinfo{journal}{Proceedings of the VLDB Endowment}
+  \bibinfo{volume}{13}, \bibinfo{pages}{3411--3424}.
+\newblock \DOIprefix\doi{10.14778/3415478.3415560}.
+%Type = Article
+\bibitem[{Breiman(2001)}]{breiman2001rf}
+\bibinfo{author}{Breiman, L.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Random forests}.
+\newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{45},
+  \bibinfo{pages}{5--32}.
+\newblock \DOIprefix\doi{10.1023/A:1010933404324}.
+%Type = Article
+\bibitem[{Carbone et~al.(2015)Carbone, Katsifodimos, Ewen, Markl, Haridi and
+  Tzoumas}]{carbone2015flink}
+\bibinfo{author}{Carbone, P.}, \bibinfo{author}{Katsifodimos, A.},
+  \bibinfo{author}{Ewen, S.}, \bibinfo{author}{Markl, V.},
+  \bibinfo{author}{Haridi, S.}, \bibinfo{author}{Tzoumas, K.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{{Apache Flink}: Stream and batch processing in a
+  single engine}.
+\newblock \bibinfo{journal}{IEEE Data Engineering Bulletin}
+  \bibinfo{volume}{38}, \bibinfo{pages}{28--38}.
+%Type = Inproceedings
+\bibitem[{Chen and Guestrin(2016)}]{chen2016xgboost}
+\bibinfo{author}{Chen, T.}, \bibinfo{author}{Guestrin, C.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{{XGBoost}: A scalable tree boosting system}, in:
+  \bibinfo{booktitle}{Proceedings of the 22nd ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}, pp.
+  \bibinfo{pages}{785--794}.
+\newblock \DOIprefix\doi{10.1145/2939672.2939785}.
+%Type = Article
+\bibitem[{Cont et~al.(2014)Cont, Kukanov and Stoikov}]{cont2011price}
+\bibinfo{author}{Cont, R.}, \bibinfo{author}{Kukanov, A.},
+  \bibinfo{author}{Stoikov, S.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{The price impact of order book events}.
+\newblock \bibinfo{journal}{Journal of Financial Econometrics}
+  \bibinfo{volume}{12}, \bibinfo{pages}{47--88}.
+\newblock \DOIprefix\doi{10.1093/jjfinec/nbt003}.
+%Type = Inproceedings
+\bibitem[{Crankshaw et~al.(2017)Crankshaw, Wang, Zhou, Franklin, Gonzalez and
+  Stoica}]{crankshaw2017clipper}
+\bibinfo{author}{Crankshaw, D.}, \bibinfo{author}{Wang, X.},
+  \bibinfo{author}{Zhou, G.}, \bibinfo{author}{Franklin, M.J.},
+  \bibinfo{author}{Gonzalez, J.E.}, \bibinfo{author}{Stoica, I.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Clipper: A low-latency online prediction serving
+  system}, in: \bibinfo{booktitle}{14th USENIX Symposium on Networked Systems
+  Design and Implementation (NSDI '17)}, pp. \bibinfo{pages}{613--627}.
+%Type = Article
+\bibitem[{Dean and Barroso(2013)}]{dean2013tail}
+\bibinfo{author}{Dean, J.}, \bibinfo{author}{Barroso, L.A.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{The tail at scale}.
+\newblock \bibinfo{journal}{Communications of the ACM} \bibinfo{volume}{56},
+  \bibinfo{pages}{74--80}.
+\newblock \DOIprefix\doi{10.1145/2408776.2408794}.
+%Type = Article
+\bibitem[{Ecker et~al.(2025)Ecker, Karagiannis, Sober and
+  Schulte}]{ecker2025latency}
+\bibinfo{author}{Ecker, R.}, \bibinfo{author}{Karagiannis, V.},
+  \bibinfo{author}{Sober, M.}, \bibinfo{author}{Schulte, S.},
+  \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Latency-aware placement of stream processing
+  operators in modern-day stream processing frameworks}.
+\newblock \bibinfo{journal}{Journal of Parallel and Distributed Computing}
+  \bibinfo{volume}{199}, \bibinfo{pages}{105041}.
+\newblock \DOIprefix\doi{10.1016/j.jpdc.2025.105041}.
+%Type = Inproceedings
+\bibitem[{Fernandez et~al.(2014)Fernandez, Migliavacca, Kalyvianaki and
+  Pietzuch}]{fernandez2015liquid}
+\bibinfo{author}{Fernandez, R.C.}, \bibinfo{author}{Migliavacca, M.},
+  \bibinfo{author}{Kalyvianaki, E.}, \bibinfo{author}{Pietzuch, P.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Making state explicit for imperative big data
+  processing}, in: \bibinfo{booktitle}{2014 USENIX Annual Technical Conference
+  (USENIX ATC 14)}, pp. \bibinfo{pages}{49--60}.
+%Type = Article
+\bibitem[{Gama et~al.(2014)Gama, {\v{Z}}liobait{\.e}, Bifet, Pechenizkiy and
+  Bouchachia}]{gama2014drift}
+\bibinfo{author}{Gama, J.}, \bibinfo{author}{{\v{Z}}liobait{\.e}, I.},
+  \bibinfo{author}{Bifet, A.}, \bibinfo{author}{Pechenizkiy, M.},
+  \bibinfo{author}{Bouchachia, A.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{A survey on concept drift adaptation}.
+\newblock \bibinfo{journal}{ACM Computing Surveys} \bibinfo{volume}{46},
+  \bibinfo{pages}{Article 44}.
+\newblock \DOIprefix\doi{10.1145/2523813}.
+%Type = Phdthesis
+\bibitem[{Golab(2006)}]{golab2006sliding}
+\bibinfo{author}{Golab, L.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Sliding Window Query Processing over Data Streams}.
+\newblock Ph.D. thesis. University of Waterloo.
+%Type = Article
+\bibitem[{Gu and Dib(2025)}]{gu2025fraud}
+\bibinfo{author}{Gu, Z.}, \bibinfo{author}{Dib, O.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Enhancing fraud detection in the {Ethereum}
+  blockchain using ensemble learning}.
+\newblock \bibinfo{journal}{PeerJ Computer Science} \bibinfo{volume}{11},
+  \bibinfo{pages}{e2716}.
+\newblock \DOIprefix\doi{10.7717/peerj-cs.2716}.
+%Type = Article
+\bibitem[{Henning and Hasselbring(2021)}]{henning2023theodolite}
+\bibinfo{author}{Henning, S.}, \bibinfo{author}{Hasselbring, W.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Theodolite: Scalability benchmarking of distributed
+  stream processing engines in microservice architectures}.
+\newblock \bibinfo{journal}{Big Data Research} \bibinfo{volume}{25},
+  \bibinfo{pages}{100209}.
+\newblock \DOIprefix\doi{10.1016/j.bdr.2021.100209}.
+%Type = Article
+\bibitem[{Hyndman and Fan(1996)}]{hyndman1996quantiles}
+\bibinfo{author}{Hyndman, R.J.}, \bibinfo{author}{Fan, Y.},
+  \bibinfo{year}{1996}.
+\newblock \bibinfo{title}{Sample quantiles in statistical packages}.
+\newblock \bibinfo{journal}{The American Statistician} \bibinfo{volume}{50},
+  \bibinfo{pages}{361--365}.
+\newblock \DOIprefix\doi{10.1080/00031305.1996.10473566}.
+%Type = Inproceedings
+\bibitem[{Kreps et~al.(2011)Kreps, Narkhede and Rao}]{kreps2011kafka}
+\bibinfo{author}{Kreps, J.}, \bibinfo{author}{Narkhede, N.},
+  \bibinfo{author}{Rao, J.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Kafka: A distributed messaging system for log
+  processing}, in: \bibinfo{booktitle}{Proceedings of the NetDB Workshop}.
+%Type = Inproceedings
+\bibitem[{Monamo et~al.(2016)Monamo, Marivate and Twala}]{monamo2016bitcoin}
+\bibinfo{author}{Monamo, P.}, \bibinfo{author}{Marivate, V.},
+  \bibinfo{author}{Twala, B.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Unsupervised learning for robust {Bitcoin} fraud
+  detection}, in: \bibinfo{booktitle}{2016 Information Security for South
+  Africa (ISSA)}.
+\newblock \DOIprefix\doi{10.1109/ISSA.2016.7802939}.
+%Type = Article
+\bibitem[{Passalis et~al.(2020)Passalis, Raitoharju, Tefas and
+  Gabbouj}]{passalis2020adaptive}
+\bibinfo{author}{Passalis, N.}, \bibinfo{author}{Raitoharju, J.},
+  \bibinfo{author}{Tefas, A.}, \bibinfo{author}{Gabbouj, M.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Efficient adaptive inference for deep convolutional
+  neural networks using hierarchical early exits}.
+\newblock \bibinfo{journal}{Pattern Recognition} \bibinfo{volume}{105},
+  \bibinfo{pages}{107346}.
+\newblock \DOIprefix\doi{10.1016/j.patcog.2020.107346}.
+%Type = Article
+\bibitem[{Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel,
+  Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
+  Cournapeau, Brucher, Perrot and Duchesnay}]{pedregosa2011sklearn}
+\bibinfo{author}{Pedregosa, F.}, \bibinfo{author}{Varoquaux, G.},
+  \bibinfo{author}{Gramfort, A.}, \bibinfo{author}{Michel, V.},
+  \bibinfo{author}{Thirion, B.}, \bibinfo{author}{Grisel, O.},
+  \bibinfo{author}{Blondel, M.}, \bibinfo{author}{Prettenhofer, P.},
+  \bibinfo{author}{Weiss, R.}, \bibinfo{author}{Dubourg, V.},
+  \bibinfo{author}{Vanderplas, J.}, \bibinfo{author}{Passos, A.},
+  \bibinfo{author}{Cournapeau, D.}, \bibinfo{author}{Brucher, M.},
+  \bibinfo{author}{Perrot, M.}, \bibinfo{author}{Duchesnay, E.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Scikit-learn: Machine learning in {Python}}.
+\newblock \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{12}, \bibinfo{pages}{2825--2830}.
+%Type = Misc
+\bibitem[{{Redis Ltd}(2023)}]{redis2023}
+\bibinfo{author}{{Redis Ltd}}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Redis}.
+\newblock \bibinfo{howpublished}{\url{https://redis.io}}.
+\newblock \bibinfo{note}{Accessed: 11 October 2026}.
+%Type = Inproceedings
+\bibitem[{de~la R{\'u}a~Mart{\'i}nez et~al.(2024)de~la R{\'u}a~Mart{\'i}nez,
+  Buso, Kouzoupis, Ormenisan, Niazi, Bzhalava, Mak, Jouffrey, Ronstr{\"o}m,
+  Cunningham, Zangis, Mukhedkar, Khazanchi, Vlassov and
+  Dowling}]{delaruamartinez2024hopsworks}
+\bibinfo{author}{de~la R{\'u}a~Mart{\'i}nez, J.}, \bibinfo{author}{Buso, F.},
+  \bibinfo{author}{Kouzoupis, A.}, \bibinfo{author}{Ormenisan, A.A.},
+  \bibinfo{author}{Niazi, S.}, \bibinfo{author}{Bzhalava, D.},
+  \bibinfo{author}{Mak, K.}, \bibinfo{author}{Jouffrey, V.},
+  \bibinfo{author}{Ronstr{\"o}m, M.}, \bibinfo{author}{Cunningham, R.},
+  \bibinfo{author}{Zangis, R.}, \bibinfo{author}{Mukhedkar, D.},
+  \bibinfo{author}{Khazanchi, A.}, \bibinfo{author}{Vlassov, V.},
+  \bibinfo{author}{Dowling, J.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{The {Hopsworks} feature store for machine learning},
+  in: \bibinfo{booktitle}{Companion of the 2024 International Conference on
+  Management of Data (SIGMOD/PODS Companion '24)}, pp.
+  \bibinfo{pages}{135--147}.
+\newblock \DOIprefix\doi{10.1145/3626246.3653389}.
+%Type = Article
+\bibitem[{Saito and Rehmsmeier(2015)}]{saito2015pr}
+\bibinfo{author}{Saito, T.}, \bibinfo{author}{Rehmsmeier, M.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The precision-recall plot is more informative than
+  the {ROC} plot when evaluating binary classifiers on imbalanced datasets}.
+\newblock \bibinfo{journal}{PLOS ONE} \bibinfo{volume}{10},
+  \bibinfo{pages}{e0118432}.
+\newblock \DOIprefix\doi{10.1371/journal.pone.0118432}.
+%Type = Article
+\bibitem[{Shokhanda et~al.(2025)Shokhanda, Pal, Kumar, Chattopadhyay and
+  Bhattacharya}]{shokhanda2025safetail}
+\bibinfo{author}{Shokhanda, J.}, \bibinfo{author}{Pal, U.},
+  \bibinfo{author}{Kumar, A.}, \bibinfo{author}{Chattopadhyay, S.},
+  \bibinfo{author}{Bhattacharya, A.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{{SafeTail}: Efficient tail latency optimization in
+  edge service scheduling via computational redundancy management}.
+\newblock \bibinfo{journal}{IEEE Transactions on Network and Service
+  Management} \bibinfo{volume}{22}, \bibinfo{pages}{4668--4680}.
+\newblock \DOIprefix\doi{10.1109/TNSM.2025.3587752}.
+%Type = Inproceedings
+\bibitem[{Toshniwal et~al.(2014)Toshniwal, Taneja, Shukla, Ramasamy, Patel,
+  Kulkarni, Jackson, Gade, Fu, Donham, Bhagat, Mittal and
+  Ryaboy}]{toshniwal2014storm}
+\bibinfo{author}{Toshniwal, A.}, \bibinfo{author}{Taneja, S.},
+  \bibinfo{author}{Shukla, A.}, \bibinfo{author}{Ramasamy, K.},
+  \bibinfo{author}{Patel, J.M.}, \bibinfo{author}{Kulkarni, S.},
+  \bibinfo{author}{Jackson, J.}, \bibinfo{author}{Gade, K.},
+  \bibinfo{author}{Fu, M.}, \bibinfo{author}{Donham, J.},
+  \bibinfo{author}{Bhagat, N.}, \bibinfo{author}{Mittal, S.},
+  \bibinfo{author}{Ryaboy, D.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{Storm@Twitter}}, in: \bibinfo{booktitle}{Proceedings
+  of the 2014 ACM SIGMOD International Conference on Management of Data}, pp.
+  \bibinfo{pages}{147--156}.
+\newblock \DOIprefix\doi{10.1145/2588555.2595641}.
+%Type = Inproceedings
+\bibitem[{Vogel et~al.(2024)Vogel, Henning, Perez-Wohlfeil, Ertl and
+  Rabiser}]{vogel2024fault}
+\bibinfo{author}{Vogel, A.}, \bibinfo{author}{Henning, S.},
+  \bibinfo{author}{Perez-Wohlfeil, E.}, \bibinfo{author}{Ertl, O.},
+  \bibinfo{author}{Rabiser, R.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{A comprehensive benchmarking analysis of fault
+  recovery in stream processing frameworks}, in:
+  \bibinfo{booktitle}{Proceedings of the 18th ACM International Conference on
+  Distributed and Event-based Systems (DEBS '24)}, pp.
+  \bibinfo{pages}{171--182}.
+\newblock \DOIprefix\doi{10.1145/3629104.3666040}.
+%Type = Inproceedings
+\bibitem[{Zaharia et~al.(2013)Zaharia, Das, Li, Hunter, Shenker and
+  Stoica}]{zaharia2013discretized}
+\bibinfo{author}{Zaharia, M.}, \bibinfo{author}{Das, T.}, \bibinfo{author}{Li,
+  H.}, \bibinfo{author}{Hunter, T.}, \bibinfo{author}{Shenker, S.},
+  \bibinfo{author}{Stoica, I.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Discretized streams: Fault-tolerant streaming
+  computation at scale}, in: \bibinfo{booktitle}{Proceedings of the 24th ACM
+  Symposium on Operating Systems Principles (SOSP '13)}, pp.
+  \bibinfo{pages}{423--438}.
+\newblock \DOIprefix\doi{10.1145/2517349.2522737}.
+%Type = Inproceedings
+\bibitem[{Zaharia et~al.(2021)Zaharia, Ghodsi, Xin and
+  Armbrust}]{zaharia2021lakehouse}
+\bibinfo{author}{Zaharia, M.}, \bibinfo{author}{Ghodsi, A.},
+  \bibinfo{author}{Xin, R.}, \bibinfo{author}{Armbrust, M.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Lakehouse: A new generation of open platforms that
+  unify data warehousing and advanced analytics}, in: \bibinfo{booktitle}{11th
+  Annual Conference on Innovative Data Systems Research (CIDR)}.
+
+\end{thebibliography}
